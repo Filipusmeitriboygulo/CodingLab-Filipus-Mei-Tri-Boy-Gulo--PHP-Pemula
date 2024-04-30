@@ -39,7 +39,7 @@ $buku = query("SELECT * FROM buku");
             <tr>
                 <td><?= $i ?></td>
                 <td>
-                    <a href="">Ubah</a> |
+                    <a href=>Ubah</a> |
                     <a href="hapus.php?id=<?= $row["id"] ?>" onclick="return confirm('Are you sure you want to delete this data')">Hapus</a>
                 </td>
                 <td><?= $row["nama_buku"] ?></td>
