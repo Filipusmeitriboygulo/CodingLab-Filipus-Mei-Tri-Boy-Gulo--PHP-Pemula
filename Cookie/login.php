@@ -3,7 +3,7 @@
 require 'functions.php';
 
 // cek cookie
-if (isset($_COOKIE['id']) && isset($_COOKIE(['key']))) {
+if (isset($_COOKIE['id']) && isset($_COOKIE['key'])) {
     $id = $_COOKIE['id'];
     $key = $_COOKIE['key'];
 
